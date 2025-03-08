@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![image](https://github.com/user-attachments/assets/dd49dff7-7b17-4654-b7b4-37d65d016d8e)![image](https://github.com/user-attachments/assets/5e1f3d3d-562f-41e0-9a40-fcb6cab41f3d)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -382,7 +382,8 @@ seq 10 | sed '2,9c hello'
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/99c73ba9-8e09-47da-8705-e2f17516e8b7)
+
 
 
 
@@ -401,6 +402,8 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/243def38-9848-4575-816f-78aa9a038696)
+
 
 
 cat > file22
@@ -414,6 +417,8 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/3874bb79-ddfe-414d-904f-458320d9818c)
+
 
 
 
@@ -421,6 +426,8 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+ ![image](https://github.com/user-attachments/assets/c82a8521-5cbe-47f6-868c-8503a6d73aa6)
+
 
 cat < urllist.txt
 ```
@@ -437,17 +444,23 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+ ![image](https://github.com/user-attachments/assets/93901c25-c687-4313-bf3d-094eeb6752a3)
+
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/9fce0538-5fd1-4f87-b824-fc17d0eab5c1)
+
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/bd9e91b8-f04c-4ae3-bf88-536407d238fa)
+
 
 
 mkdir backupdir
@@ -456,18 +469,22 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/a0edd1f6-ae8d-4e93-9bb9-4fd79a2cc91f)
+
 
 
 tar -xvf backup.tar
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/7f794075-11e6-4045-81dd-ded38a0b3462)
+
+
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
-gunzip backup.tar.gz
-## OUTPUT
+
+![image](https://github.com/user-attachments/assets/62e6ffcd-3a8d-442e-8d74-d878a8f75d88)
 
  
 # Shell Script
@@ -478,6 +495,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+
 
  
 cat << stop > herecheck.txt
@@ -490,6 +508,9 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+
+![image](https://github.com/user-attachments/assets/098575e8-46e0-4852-b691-52594a4be7b4)
+
 
 
 cat < scriptest.sh 
@@ -529,22 +550,38 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/a6671a13-a9ac-4161-b943-00ef6c3c4756)
+
+
  
 ls file1
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/416ebb36-2e25-4b28-ab74-dc0ea7c53f82)
+
+
 echo $?
 ## OUTPUT 
+
+![image](https://github.com/user-attachments/assets/6799b43e-d951-46bf-a4d6-d93276484399)
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+
+![image](https://github.com/user-attachments/assets/9aaef22f-3414-45ad-8995-53cb8526737b)
+
  
 abcd
  
 echo $?
  ## OUTPUT
+
+
+ ![image](https://github.com/user-attachments/assets/6ab2fb90-ae92-40d0-a9a4-0a4f74ac8f84)
+
 
 
  
