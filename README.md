@@ -612,14 +612,14 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
-
-
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+
+![image](https://github.com/user-attachments/assets/4fadc5e6-c229-42de-8c7c-8a8e35a46c0f)
+
 
 
 # check file ownership
@@ -646,7 +646,11 @@ echo “Sorry, you are not the owner of the /etc/passwd file”
 fi
  ```
 ./psswdperm.sh
+
 ## OUTPUT
+
+![image](https://github.com/user-attachments/assets/9d4757ed-2c5c-4c60-a6bd-41c09b54371c)
+
 
 # check if with file location
 cat>ifnested.sh 
@@ -694,6 +698,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/e6bb5869-a57d-4eb6-9a40-c18edd38b4c3)
 
 
 # using numeric test comparisons
@@ -736,7 +741,11 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+
+## OUTPUT
+
+![image](https://github.com/user-attachments/assets/2387f741-1662-4739-aee9-5a2d730329bc)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -785,7 +794,10 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+
+## OUTPUT
+![image](https://github.com/user-attachments/assets/6c334646-1239-4db0-88e4-0d02f17de012)
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -815,6 +827,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/1020d3bb-68ce-47f1-8a9c-8abec3a4cd6f)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -830,6 +843,9 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
+![image](https://github.com/user-attachments/assets/d1c79bea-82f8-44a0-a578-4ff311e0ca28)
+
 
 # using the case command
 cat >casecheck.sh 
@@ -941,6 +957,9 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
+![image](https://github.com/user-attachments/assets/9edb20a4-3c2b-4dee-9cd1-68f525f77394)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -1143,7 +1162,9 @@ done
 set +x
 ```
 ## OUTPUT
- ./argshift.sh 1 2 3
+
+![image](https://github.com/user-attachments/assets/0e2e6ba4-6116-42cb-8096-8e4f067979e4)
+
  
  
 cat > nc.awk
@@ -1175,6 +1196,9 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+
+![image](https://github.com/user-attachments/assets/2f46bed6-9fbd-462d-8919-a6f5ccaa53bd)
+
  
 cat > palindrome.sh
 ```bash
@@ -1202,6 +1226,9 @@ else
 fi
 ```
 ## OUTPUT 
+
+![image](https://github.com/user-attachments/assets/3f07da4e-a733-4b18-9b15-0510320ee247)
+
 
 
 # RESULT:
