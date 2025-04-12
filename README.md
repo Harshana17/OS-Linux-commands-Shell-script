@@ -1,4 +1,4 @@
-
+-
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
 
@@ -495,6 +495,9 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
+![Screenshot from 2025-03-08 11-37-46](https://github.com/user-attachments/assets/b36618cf-d6b3-4e8d-8c6b-73b82541eeda)
+
+
 
  
 cat << stop > herecheck.txt
@@ -982,6 +985,8 @@ Khammam
 
 ## OUTPUT
 
+![Screenshot from 2025-03-08 11-37-46](https://github.com/user-attachments/assets/edaa47d6-3f27-4c09-b370-9ceb1e89c9a2)
+
 
 cat forctype.sh 
 ```bash
@@ -995,6 +1000,9 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+
+![Screenshot from 2025-03-08 11-37-46](https://github.com/user-attachments/assets/2c5eff64-1416-45ba-a334-396a3062a6b4)
+
 
 cat forctype1.sh 
 ```bash
@@ -1115,6 +1123,9 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+
+![Screenshot from 2025-03-08 11-37-46](https://github.com/user-attachments/assets/82af279d-8a3b-44eb-b1f7-42e545e63091)
+
  ./funcex.sh 
 
  
@@ -1132,6 +1143,9 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+
+![Screenshot from 2025-03-08 11-23-38](https://github.com/user-attachments/assets/9b86246f-f2a8-4b9f-9d63-93b4cb1e2152)
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
